@@ -15,6 +15,8 @@
 
 <img src ="https://github.com/TAMU-VITA/EnlightenGAN/blob/master/assets/arch.png?raw=true" width=70%>
 
+ネットワークのアーキテクチャ，著者のgitより
+
 - GAN(LSGAN,PatchGAN)を使用している.
   - U-netを元にしたGeneraterを採用することで暗い部分に注目し画像の再構成を行う．
   - 画像全体の判別を行うGlobalDiscriminatorとランダムに取り出されたパッチ(１画像につき５パッチ)の判別を行うLocalDiscriminatorを組み合わせる．
