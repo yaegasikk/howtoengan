@@ -2,6 +2,9 @@
 論文：[https://arxiv.org/pdf/1906.06972.pdf](https://arxiv.org/pdf/1906.06972.pdf)
 
 コード：[https://github.com/TAMU-VITA/EnlightenGAN](https://github.com/TAMU-VITA/EnlightenGAN)
+
+を読んで試してみたのでそのまとめ．
+
 ## どんな研究？
 <img src=5_real_A.png width=30%><img src=5_fake_B.png width=30%>
 
