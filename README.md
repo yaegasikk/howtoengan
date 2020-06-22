@@ -15,14 +15,14 @@
 
 <img src ="https://github.com/TAMU-VITA/EnlightenGAN/blob/master/assets/arch.png?raw=true" width=70%>
 
-ネットワークのアーキテクチャ，著者のgitより
+図：ネットワークのアーキテクチャ，著者のgitより
 
 - GAN(LSGAN,PatchGAN)を使用している.
   - U-netを元にしたGeneraterを採用することで暗い部分に注目し画像の再構成を行う．
   - 画像全体の判別を行うGlobalDiscriminatorとランダムに取り出されたパッチ(１画像につき５パッチ)の判別を行うLocalDiscriminatorを組み合わせる．
   - attention mapとLocalDiscriminatorが存在することで画像の一部分の色が歪んでいたり周りとくらべて不自然に明るいということがなくなる． 
   
-（損失関数の話とか結構大事なので，ここらへんはまた加筆します．．）
+（損失関数の話とか結構大事ぽいので，ここらへんはまた加筆します．．）
 ## 環境構築
 
 1. [DockerでKerasを使ったディープラーニングの環境を構築する](https://github.com/FirstSS-Sub/Docker-Mnist)を実施してください。
