@@ -127,7 +127,7 @@ firefox localhost:8097 &
 
 こんな画像がでてくるはず．やっと学習です．
 ```
-cd cd /user/local/EnlightenGAN/
+cd /user/local/EnlightenGAN/
 sudo python scripts/script.py --train
 ```
 (このdockerイメージでは`python`でバージョンが3.5のPythonが動きます．`python3`で動かす環境でこのコードを動かす場合`script.py`の中を変更する必要があります．)
